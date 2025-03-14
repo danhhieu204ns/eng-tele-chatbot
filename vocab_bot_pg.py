@@ -1,7 +1,6 @@
 # Description: A Telegram bot for learning vocabulary with PostgreSQL database.
 from db import SessionLocal, Vocab, init_db
 from dotenv import load_dotenv
-from dotenv import load_dotenv
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 import random
 import csv
